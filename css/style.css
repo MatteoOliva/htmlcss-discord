@@ -71,14 +71,19 @@ section:nth-of-type(1) {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: 26px;
+  font-size: 30px;
   color: white;
 }
 
 .link1-2 {
-  padding: 5px;
+  margin-top: 55px;
 }
-
+h1 {
+  margin-top: 55px;
+}
+.container > p {
+  margin-top: 55px;
+}
 /* section 2 */
 section:nth-of-type(2) {
   width: 100%;
@@ -89,16 +94,19 @@ section:nth-of-type(2) {
 }
 
 .container2 {
-  background-color: #1f90ff;
-  border: 3px dashed black;
-  width: 35%;
-  height: 82%;
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+  width: 30%;
+  height: 400px;
 }
 
 .container3 {
-  width: 25%;
-  height: 82%;
+  width: 300px;
+  height: 350px;
+  text-align: left;
+  font-size: 25px;
 }
+
 /* section 3 */
 section:nth-of-type(3) {
   width: 100%;
