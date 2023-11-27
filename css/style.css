@@ -54,7 +54,9 @@ header {
   padding: 5px;
   color: white;
 }
-
+p {
+  margin-top: 20px;
+}
 /* section 1 */
 section:nth-of-type(1) {
   background-image: url(../img/jumbo.png);
@@ -96,6 +98,7 @@ section:nth-of-type(2) {
 .container2 {
   background-image: url(../img/item1.svg);
   background-size: contain;
+  background-repeat: no-repeat;
   width: 30%;
   height: 400px;
 }
@@ -118,17 +121,17 @@ section:nth-of-type(3) {
 }
 
 .container4 {
-  background-color: #ffc0cb;
-  border: 3px dashed black;
-  width: 25%;
-  height: 82%;
+  width: 19%;
+  height: 50%;
+  font-size: 25px;
 }
 
 .container5 {
-  background-color: #1f90ff;
-  border: 3px dashed black;
-  width: 35%;
-  height: 82%;
+  background-image: url(../img/item2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 60%;
 }
 /* section 4 */
 section:nth-of-type(4) {
@@ -140,17 +143,17 @@ section:nth-of-type(4) {
 }
 
 .container6 {
-  background-color: #1f90ff;
-  border: 3px dashed black;
-  width: 35%;
-  height: 82%;
+  background-image: url(../img/item3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 60%;
 }
 
 .container7 {
-  background-color: #ffc0cb;
-  border: 3px dashed black;
-  width: 25%;
-  height: 82%;
+  width: 15%;
+  height: 50%;
+  font-size: 25px;
 }
 
 /* section 5 */
@@ -160,9 +163,26 @@ section:nth-of-type(5) {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #d3d3d3;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+}
+h3 {
+  font-size: 30px;
 }
 
+.testo {
+  max-width: 60%;
+}
+
+.btn-blue {
+  background-color: #8ea1e1;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  margin-top: 10px;
 }
 
 /* section 6 */
