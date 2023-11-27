@@ -16,14 +16,6 @@ header {
   max-width: 70%;
 }
 
-.logo {
-  margin-left: 5px;
-}
-
-.login {
-  margin-right: 5px;
-}
-
 .header-left {
   flex-grow: 1;
   background-color: goldenrod;
@@ -49,9 +41,6 @@ header {
   border: 3px dashed black;
   height: 60px;
   font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
 }
 /* section 1 */
 section:nth-of-type(1) {
@@ -60,16 +49,8 @@ section:nth-of-type(1) {
   height: 550px;
   align-items: center;
   display: flex;
-  border-bottom: 3px solid #b3dbe8;
 }
 
-.container {
-  background: #ee82ee;
-  height: 80%;
-  width: 50%;
-  border: 3px dashed black;
-  margin: 0 auto;
-}
 /* section 2 */
 section:nth-of-type(2) {
   width: 100%;
